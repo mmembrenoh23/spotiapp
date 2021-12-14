@@ -1,3 +1,7 @@
+![Angular](https://img.shields.io/badge/Code-Angular-International?style=flat&logo=angular&logoColor=white)
+![](https://img.shields.io/badge/API-Spotify-International?style=flat&logo=spotify&logoColor=white)
+![](https://img.shields.io/badge/Code-Typescript-International?style=flat&logo=typescript&logoColor=white)
+
 # Spotiapp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.

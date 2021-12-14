@@ -1,0 +1,4 @@
+[1229/233333.343:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1229/233333.378:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Maria Membreno\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\1af1a2b9-c4ab-4aae-b325-9793999f3161: The system cannot find the path specified. (0x3)
+[1229/233333.387:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Maria Membreno\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\0aac2d2b-8910-4555-981d-6ff572e62ef3: The system cannot find the path specified. (0x3)
+[0112/092818.537:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)

@@ -1,0 +1,20 @@
+<div class="card-columns mt-5">
+  <div (click)="getArtist(item)" class="card puntero" *ngFor="let item of items">
+    <img [src]="item.images | noimage" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{ item.name }}</h5>
+      <span class="badge badge-secondary" *ngFor="let genres of item.genres">{{ genres }}</span>
+      <p class="card-text" *ngIf="item.hasOwnProperty('album_type')">
+        Album: {{ item.album_type }} <br>
+        Release : {{ item.release_date | date:'MMM dd yyyy':'':'es' }}
+      </p>
+
+      <p class="card-text" *ngIf="item.hasOwnProperty('popularity')">
+       Popularity: {{  item.popularity }} <br>
+        Followers: {{ item.followers.total |number }}
+      </p>
+    </div>
+  </div>
+</div>
+
+
